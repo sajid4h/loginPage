@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.mainWrapper {
+  width: 100%;
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+  .mainWrapper .mainHeadingTxt {
+    text-align: center;
+    margin-bottom: 10px; }
+  .mainWrapper .formDiv {
+    width: 40%;
+    height: 30vh;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center; }
+    .mainWrapper .formDiv .inputDiv {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center; }
+      .mainWrapper .formDiv .inputDiv label {
+        width: 20%;
+        text-align: center;
+        margin-top: 15px;
+        font-size: larger; }
+      .mainWrapper .formDiv .inputDiv input {
+        width: 40%;
+        height: 40px;
+        border-radius: 10px; }
+        .mainWrapper .formDiv .inputDiv input::placeholder {
+          text-align: center; }
+    .mainWrapper .formDiv .loginBtn {
+      width: 15%;
+      height: 30px;
+      border-radius: 10px; }
